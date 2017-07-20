@@ -47,17 +47,10 @@ a:hover, a:focus{
 
 .title-my-work {
     width: 100%;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 160px;
+    padding: 0 40px 160px 40px;
      float: left;
      box-sizing: border-box;
 }
-.title-my-work h2{
-    width: 50%;
-    float: left;
-    color: #333333;
-	}
 
 .title-my-work p {
     float: left;
@@ -221,8 +214,8 @@ a.main-message-text p.main-text-about-me{
 
 }
 
-.about-content h2{
-	width: 50%;
+.about-content h2, .Capabilities-content h2, .title-my-work h2{
+	width: 40%;
 	float: left;
     color: #333333;
 }
@@ -234,22 +227,16 @@ a.main-message-text p.main-text-about-me{
     float: left;
 }
 
-.Capabilities-content h2{
-    float: left;
-    width: 50%;
-    color: #333333;
+.Capabilities-content h3{
+font-size: 30px;
+color: #333333;
 }
 
-	.Capabilities-content h3{
-	font-size: 30px;
-    color: #333333;
-	}
-   
-   .Capabilities-content span{
-   	font-size: 20px;
-   	color: gray;
+.Capabilities-content span{
+	font-size: 20px;
+	color: gray;
 
-	}
+}
 
 .Capabilities-content ul{
 	width: 40%;
@@ -411,9 +398,9 @@ p.work-description{
 }
 .mysocials-holder a{
 	display: inline-block;
-	font-size: 16px;
+	font-size: 20px;
 	float: left;
-	margin: 0 10px 0 10px;
+	margin: 0 0 0 20px;
 	text-decoration: none;
 	padding-bottom: 5PX;
 	border-bottom: 2px solid white;
@@ -460,7 +447,7 @@ p.work-description{
     }
 
     .about-content{ 
-        padding: 40px 20px 80px 20px;
+        padding: 80px 20px 80px 20px;
     }
 
     .Capabilities-content{
@@ -468,9 +455,7 @@ p.work-description{
     }
 
     .title-my-work{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-bottom: 80px;
+    padding: 0 20px 80px 20px;
     }
 
     .about-content h2, .about-content p, 
