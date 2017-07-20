@@ -464,12 +464,13 @@ p.work-description{
     }
 
     .Capabilities-content{
-        padding: 0px 20px 160px 20px;
+        padding: 0px 20px 80px 20px;
     }
 
     .title-my-work{
     padding-left: 20px;
     padding-right: 20px;
+    margin-bottom: 80px;
     }
 
     .about-content h2, .about-content p, 
@@ -477,6 +478,12 @@ p.work-description{
     .Capabilities-content ul li div, .title-my-work h2, .title-my-work p,
     .contact-info-holder  {
         width: 100%;
+    }
+    .about-content h2, .Capabilities-content h2, .title-my-work h2{
+        font-size: 40px;
+    }
+    .Capabilities-content h3{
+    font-size: 20px;
     }
 
     .mysocials-holder{
@@ -530,6 +537,7 @@ p.work-description{
         margin-left: 0;
         margin-right: 20px;
         margin-bottom: 20px;
+        font-size: 20px;
     }
 
     .footer-holder{
