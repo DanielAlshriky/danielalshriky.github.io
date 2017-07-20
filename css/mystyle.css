@@ -448,11 +448,28 @@ p.work-description{
         min-width: 100%;
     }
 
+    .main-banner{
+        padding: 20px;
+    }
+
     .main-banner h1{
         width: 100%;
         max-width: 100%;
         font-size:40px;
         line-height:100%;
+    }
+
+    .about-content{ 
+        padding: 40px 20px 80px 20px;
+    }
+
+    .Capabilities-content{
+        padding: 0px 20px 160px 20px;
+    }
+
+    .title-my-work{
+    padding-left: 20px;
+    padding-right: 20px;
     }
 
     .about-content h2, .about-content p, 
@@ -465,6 +482,10 @@ p.work-description{
     .mysocials-holder{
         margin-bottom: 40px;
         width: 100%;
+    }
+
+    .work-title-description{
+        padding: 20px;
     }
 
     h4.work-title{
@@ -495,6 +516,24 @@ p.work-description{
     .myWork-item:hover .Work-Hoder > div.work-title-description h4.work-title{
         color: white;
         background:no-repeat;
+    }
+    .main-banner a.My-download{
+        margin-top: 20px;
+    }
+
+    .contact-info-holder p{
+        font-size: 20px;
+    }
+
+    .mysocials-holder a{
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-holder{
+        padding: 60px 20px 60px 20px;
     }
 
 
