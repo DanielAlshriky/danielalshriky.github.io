@@ -440,4 +440,66 @@ p.work-description{
     float: left;
 }
 
+
+@media only screen and (max-width: 680px) {
+
+    body, html{
+        width: 100%;
+        min-width: 100%;
+    }
+
+    .main-banner h1{
+        width: 100%;
+        max-width: 100%;
+        font-size:40px;
+        line-height:100%;
+    }
+
+    .about-content h2, .about-content p, 
+    .Capabilities-content h2,.Capabilities-content ul, 
+    .Capabilities-content ul li div, .title-my-work h2, .title-my-work p,
+    .contact-info-holder  {
+        width: 100%;
+    }
+
+    .mysocials-holder{
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    h4.work-title{
+        max-width: 100%;
+        margin-top: 0;
+        background-color: rgba(39, 50, 75, 0.8);
+        padding: 0 10px 0 10px;
+        box-sizing: border-box;
+        color: white;
+    }
+    p.work-description{
+        padding: 0 10px 0 10px;
+        background-color: rgba(39, 50, 75, 0.8);
+        color: white;
+        border-bottom: none;
+    }
+    .myWork-item:hover .Work-Hoder > div.work-title-description{
+        display: block;
+        background-color:rgba(39, 50, 75, 0.8);
+    }
+    .myWork-item:hover .Work-Hoder > div.work-title-description p.work-description{
+        display: block;
+        color: white;
+        border-bottom: none;
+        background:no-repeat;
+
+    }
+    .myWork-item:hover .Work-Hoder > div.work-title-description h4.work-title{
+        color: white;
+        background:no-repeat;
+    }
+
+
+
+
+}
+
 	
