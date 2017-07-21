@@ -230,6 +230,8 @@ a.main-message-text p.main-text-about-me{
 .Capabilities-content h3{
 font-size: 30px;
 color: #333333;
+float: left;
+width: 100%;
 }
 
 .Capabilities-content span{
@@ -252,6 +254,10 @@ color: #333333;
     margin-bottom: 40px;
 
 	}
+    .Capabilities-content ul li span.space{
+    margin-bottom: 20px;
+    float: left;
+    }
 
     .Capabilities-content ul li h2{
     float: left;
@@ -265,9 +271,8 @@ color: #333333;
 
     }
 
-.Capabilities-content ul li:last-child{
+    .Capabilities-content ul li:last-child{
     margin-bottom: 0;
-
     }
 
 
