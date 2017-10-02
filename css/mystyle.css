@@ -28,6 +28,7 @@ p {
 	color: #333333;
     margin: 0;
     font-size: 20px;
+	display: inline-block;
     -webkit-font-smoothing: antialiased;
 }
 
