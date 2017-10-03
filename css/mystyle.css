@@ -420,6 +420,7 @@ p.work-description{
 .contact-info-holder p{
     font-size: 30px;
     font-weight: 900;
+    display: block;
 }
 
 .copyrights {
