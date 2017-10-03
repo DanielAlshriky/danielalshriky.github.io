@@ -8,6 +8,7 @@ body, html{
 }
 a{
   text-decoration: none;
+  font-size: 14px;
 }
 p, a, h1, h2, h3, h4, h5, footer, span{
     font-family: 'Source Sans Pro', sans-serif;
@@ -15,7 +16,7 @@ p, a, h1, h2, h3, h4, h5, footer, span{
     -webkit-font-smoothing: antialiased;
 }
 h1, h2{
-	font-size: 60px;
+	font-size: 30px;
 	font-weight: 900;
 	-webkit-font-smoothing: antialiased;
 }
@@ -28,7 +29,6 @@ p {
 	color: #333333;
     margin: 0;
     font-size: 20px;
-	display: inline-block;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -41,16 +41,18 @@ a:hover, a:focus{
  display: inline-block;
 }
 .MyWorkWidth{
-	width: 100%;
-	margin: 0 auto;
-	display: block;
+    width: 96%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 
 .title-my-work {
     width: 100%;
-    padding: 0 40px 160px 40px;
-     float: left;
-     box-sizing: border-box;
+    padding: 80px 0 80px 0;
+    float: left;
 }
 
 .title-my-work p {
@@ -68,13 +70,24 @@ a:hover, a:focus{
   width: 100%;
   box-sizing: border-box;
   float: left;
+  margin-top: 2%;
 }
 
 a.logo-holder {
 	float: left;
-	font-size: 16px;
 	color:white;
 	text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-menu-list{
+    float: right;
+}
+
+.nav-menu-list a{
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
 }
 
 a.services-action{
@@ -90,15 +103,11 @@ a.services-action{
 
 
 .main-banner {
-    min-height:800px;
-    width: 100%;
-	box-sizing: border-box;
-	padding: 40px;
+    width: 96%;
+	padding-left:2%;
+    padding-right:2%;
 	position: relative;
 	z-index: 1;
-}
-#canvas-basic{
-  min-height:800px;
 }
 
 #canvas-basic {
@@ -113,12 +122,12 @@ a.services-action{
     background-color: #27324b;
 }
 .main-banner h1 {
-    text-align: left;
     max-width: 940px;
-    font-size: 80px;
+    font-size: 60px;
     float: left;
     margin-top: 100px;
-    line-height: 76px;
+    line-height: 66px;
+    color: white;
 }
 
 .my-download-holder{
@@ -130,19 +139,8 @@ a.services-action{
     color: white;
     display:inline-block;
     margin-top: 40px;
-    font-size: 20px;
     padding-bottom: 5PX;
     border-bottom: 2px solid white;
-}
-
-a.main-message-text{
-    color: white;
-    position: relative;
-    display: inline-block;
-}
-
-a.main-message-text:hover{
-    color: #E6E6E5;
 }
 
 a.main-message-text p.main-text-about-me{
@@ -164,8 +162,7 @@ a.main-message-text p.main-text-about-me{
   width: 20px;
   height: 50px;
   margin-left: -10px;
-  bottom: 20px;
-  margin-top: -35px;
+  bottom: 30px;
   box-shadow: inset 0 0 0 2px #fff;
   border-radius: 25px;
 }
@@ -201,11 +198,10 @@ a.main-message-text p.main-text-about-me{
 /*-----About me-----*/
 
 .about-content{
-    width: 100%;
+    width: 96%;
     background: white;
-    box-sizing: border-box;
-    padding: 160px 40px 160px 40px;
-    float: left;
+    padding-top:160px; padding-bottom: 160px;
+    padding-right:2%; padding-left:2%;
 }
 
 .about-content p{
@@ -222,10 +218,11 @@ a.main-message-text p.main-text-about-me{
 }
 /*-----Capabilities-----*/
 .Capabilities-content{
-    width: 100%;
-    box-sizing: border-box;
-    padding: 0px 40px 160px 40px;
-    float: left;
+    width: 96%;
+    padding-bottom: 160px;
+    padding-right: 2%;
+    padding-left: 2%;
+
 }
 
 .Capabilities-content h3{
@@ -296,25 +293,47 @@ width: 100%;
     background-position: center center;
     background-color: #f8edba;
 }
+.fork-restaurant-project{
+    background-image: url("../images/fork_Restaurant.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f8edba;
+}
 
 .myWork-item{
-    width: 100%;
+    width: 49%;
     float: left;
-    overflow: hidden;
-    height: 600px;
-    padding: 40px;
-    box-sizing: border-box;
-    position: relative;
+    margin-bottom: 40px;
     }
+
+.myWork-item-left{
+margin-left: 1%;
+}
+.myWork-item-right{
+    margin-right: 1%;
+}
+
+
 
     a.Work-Hoder{
     	display: block;
+        width: 100%;
+        float: left;
+        overflow: hidden;
+    height: 600px;
     }
     .myWork-item:hover .Work-Hoder > div.work-title-description{
         display: block;
-        background-color:rgba(39, 50, 75, 0.8);
+                        background: rgba(39,50,75,1);
+        background: -moz-linear-gradient(top, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
+        background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(39,50,75,1)), color-stop(61%, rgba(231,56,39,0)));
+        background: -webkit-linear-gradient(top, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
+        background: -o-linear-gradient(top, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
+        background: -ms-linear-gradient(top, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
+        background: linear-gradient(to bottom, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27324b', endColorstr='#e73827', GradientType=0 );
     }
-    .myWork-item:hover .Work-Hoder > div.work-title-description p.work-description{
+    .myWork-item:hover .Work-Hoder > div.work-title-description .view-project{
         display: block;
         color: white;
         border-bottom: 2px solid white;
@@ -326,31 +345,25 @@ width: 100%;
 
 .work-title-description{
     float: left;
-    position: absolute;
-    box-sizing: border-box;
-    padding: 40px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
+    margin-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 
 h4.work-title{
 	font-size: 30px;
      color: #333333;
-    max-width: 330px;
     display: block;
-    margin-top: 80px;
 }
 
-p.work-description{
+.view-project{
 	margin-top: 10px;
 	font-weight: 300;
      color: #333333;
     display: block;
     padding-bottom: 5PX;
     float: left;
+    font-size: 14px;
     border-bottom: 2px solid #333333;
 
 }
@@ -379,12 +392,14 @@ p.work-description{
 /*--- footer copyrights ---*/
 
 .footer-holder{
-	width: 100%;
+	width: 96%;
     background: #27324b;
     display: inline-block;
-    padding: 160px 40px 160px 40px;
-    box-sizing: border-box;
     position: relative;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-right: 2%;
+    padding-left: 2%;
 }
 .footer-holder p, .footer-holder a{
 	color: white;
@@ -404,7 +419,6 @@ p.work-description{
 }
 .mysocials-holder a{
 	display: inline-block;
-	font-size: 20px;
 	float: left;
 	margin: 0 0 0 20px;
 	text-decoration: none;
@@ -420,7 +434,6 @@ p.work-description{
 .contact-info-holder p{
     font-size: 30px;
     font-weight: 900;
-    display: block;
 }
 
 .copyrights {
@@ -451,6 +464,7 @@ p.work-description{
         max-width: 100%;
         font-size:40px;
         line-height:100%;
+        color: white;
     }
 
     .about-content{ 
@@ -483,6 +497,10 @@ p.work-description{
         width: 100%;
     }
 
+    .MyWorkWidth{
+        padding: 0;
+    }
+
     .work-title-description{
         padding: 20px;
     }
@@ -495,22 +513,25 @@ p.work-description{
         box-sizing: border-box;
         color: white;
     }
-    p.work-description{
+    .view-project{
         padding: 0 10px 0 10px;
         background-color: rgba(39, 50, 75, 0.8);
         color: white;
         border-bottom: none;
+        font-size: 14px;
+    }
+    .myWork-item{
+     width: 100%;
     }
     .myWork-item:hover .Work-Hoder > div.work-title-description{
         display: block;
-        background-color:rgba(39, 50, 75, 0.8);
     }
-    .myWork-item:hover .Work-Hoder > div.work-title-description p.work-description{
+
+    .myWork-item:hover .Work-Hoder > div.work-title-description .view-project{
         display: block;
         color: white;
         border-bottom: none;
         background:no-repeat;
-
     }
     .myWork-item:hover .Work-Hoder > div.work-title-description h4.work-title{
         color: white;
@@ -529,7 +550,6 @@ p.work-description{
         margin-left: 0;
         margin-right: 20px;
         margin-bottom: 20px;
-        font-size: 20px;
     }
 
     .footer-holder{
