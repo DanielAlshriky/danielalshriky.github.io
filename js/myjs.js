@@ -1,15 +1,25 @@
-$(document).ready( function(){
+function mainBannerHeight(){
+
+ if ($("body").attr("id") == "homePage") {
 
         var heightwindow = $(window).height();
-
         $('.main-banner').css('height', heightwindow+'px');
         $('#canvas-basic').css('height', heightwindow+'px');
 
-        $(".main-message-text").on({
-                'mouseover':function(){$(".main-text-about-me").animate({ "left": "0" }); 
-             },'mouseleave':function(){ $(".main-text-about-me").animate({ "left": "-200px"}); 
-              }
-        });
+    } else {
+
+        $('.main-banner').css('height', 600+'px');
+        $('#canvas-basic').css('height', 600+'px');
+
+    }
+}
+
+
+
+
+$(document).ready( function(){
+       
+       mainBannerHeight();
 
         $(".main-message-text").click(function() {
              $('html, body').animate({
@@ -21,9 +31,9 @@ $(document).ready( function(){
 });
 
 $(window).resize(function() {
-var heightwindow = $(window).height();
-$('.main-banner').css('height', heightwindow+'px');
-$('#canvas-basic').css('height', heightwindow+'px');
+
+    mainBannerHeight();
+
 });
 
 
