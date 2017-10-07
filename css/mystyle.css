@@ -431,6 +431,20 @@ h4.work-title{
         min-width: 100%;
     }
 
+    p {
+        font-size: 20px;
+    }
+    h1, h2, h3, h4{
+    font-size: 20px;
+    }
+    a{
+        font-size: 14px;
+    }
+
+    .icon-scroll{
+        display: none;
+    }
+
     .main-banner{
         padding: 20px;
     }
@@ -443,12 +457,9 @@ h4.work-title{
         color: white;
     }
 
-    .about-content{ 
+    .about-content,  .Capabilities-content{ 
         padding: 80px 20px 80px 20px;
-    }
-
-    .Capabilities-content{
-        padding: 0px 20px 80px 20px;
+        width: auto;
     }
 
     .title-my-work{
@@ -475,43 +486,20 @@ h4.work-title{
 
     .MyWorkWidth{
         padding: 0;
+        width: 100%;
+        margin:0;
     }
 
     .work-title-description{
         padding: 20px;
+        width: 100%;
+        margin-top:0;
     }
 
-    h4.work-title{
-        max-width: 100%;
-        margin-top: 0;
-        background-color: rgba(39, 50, 75, 0.8);
-        padding: 0 10px 0 10px;
-        box-sizing: border-box;
-        color: white;
-    }
-    .view-project{
-        padding: 0 10px 0 10px;
-        background-color: rgba(39, 50, 75, 0.8);
-        color: white;
-        border-bottom: none;
-        font-size: 14px;
-    }
     .myWork-item{
      width: 100%;
-    }
-    .myWork-item:hover .Work-Hoder > div.work-title-description{
-        display: block;
-    }
+     margin:0;
 
-    .myWork-item:hover .Work-Hoder > div.work-title-description .view-project{
-        display: block;
-        color: white;
-        border-bottom: none;
-        background:no-repeat;
-    }
-    .myWork-item:hover .Work-Hoder > div.work-title-description h4.work-title{
-        color: white;
-        background:no-repeat;
     }
     .main-banner a.My-download{
         margin-top: 20px;
