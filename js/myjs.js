@@ -8,8 +8,8 @@ function mainBannerHeight(){
 
     } else {
 
-        $('.main-banner').css('height', 600+'px');
-        $('#canvas-basic').css('height', 600+'px');
+        $('.main-banner').css('height', 450+'px');
+        $('#canvas-basic').css('height', 450+'px');
 
     }
 }
@@ -22,7 +22,7 @@ $(document).ready( function(){
        mainBannerHeight();
 
         $(".main-message-text").click(function() {
-             $('html, body').animate({
+        $('html, body').animate({
         scrollTop: $(".about-content").offset().top
     }, 700);
 
