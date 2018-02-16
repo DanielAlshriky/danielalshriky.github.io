@@ -13,7 +13,7 @@ p, a, h1, h2, h3, h4, h5, footer, span{
     -webkit-font-smoothing: antialiased;
 }
 h1, h2, h3, h4{
-	font-size: 30px;
+	font-size: 60px;
 	font-weight: 900;
 	-webkit-font-smoothing: antialiased;
 }
@@ -23,8 +23,14 @@ p {
     margin: 0;
     font-size: 30px;
     -webkit-font-smoothing: antialiased;
+    display: block;
+    float: left;
+    width: 100%
 }
-
+span{
+    display: block;
+    float: left;
+}
 a{
   text-decoration: none;
   font-size: 20px;
@@ -36,7 +42,7 @@ a:hover, a:focus{
 
 .title-my-work {
     width: 100%;
-    padding: 80px 0 80px 0;
+    padding: 0 0 80px 0;
     float: left;
 }
 
@@ -189,15 +195,12 @@ a.main-message-text p.main-text-about-me{
 }
 
 .about-content p{
-    float: left;
-    width: 40%;
+    width: 65%;
     box-sizing: border-box;
 
 }
 
 .about-content h2, .Capabilities-content h2, .title-my-work h2{
-	width: 40%;
-	float: left;
     color: #333333;
 }
 /*-----Capabilities-----*/
@@ -224,7 +227,7 @@ width: 100%;
 }
 
 .Capabilities-content ul{
-	width: 40%;
+	width: 65%;
     float: left;
     margin-bottom: 40px;
     margin: 0;
@@ -239,7 +242,6 @@ width: 100%;
 	}
     .Capabilities-content ul li span.space{
     margin-bottom: 20px;
-    float: left;
     }
 
     .Capabilities-content ul li h2{
@@ -295,17 +297,11 @@ width: 100%;
 }
 
 .myWork-item{
-    width: 49%;
+    width: 100%;
     float: left;
     margin-bottom: 40px;
     }
 
-.myWork-item-left{
-margin-left: 1%;
-}
-.myWork-item-right{
-    margin-right: 1%;
-}
 
 a.Work-Hoder{
 	display: block;
@@ -339,11 +335,6 @@ a.Work-Hoder{
     margin-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-}
-
-h4.work-title{
-     color: #333333;
-    display: block;
 }
 
 .view-project{
