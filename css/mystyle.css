@@ -92,6 +92,26 @@ a.services-action{
 
 /*--------------------------------------END-Menu-*/
 
+/*--------------------------------------Banner line effect-*/
+
+svg {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 0.1;
+}
+
+path {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 0.5px;
+  vector-effect: non-scaling-stroke;
+}
+
+/*--------------------------------------END Banner line effect-*/
 
 .main-banner {
     width: 96%;
@@ -511,5 +531,6 @@ a.Work-Hoder{
     }
 
 }
+
 
 	
