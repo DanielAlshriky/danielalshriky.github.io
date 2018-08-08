@@ -1,0 +1,24 @@
+body{
+margin: 0;
+padding: 0;
+}  
+
+img{
+max-width: 1300px;
+}
+
+.master_holder{
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.video_holder{
+    position: absolute;
+    bottom: 424px;
+    left: 50%;
+    margin-left: -172px;
+}
+
+
+
