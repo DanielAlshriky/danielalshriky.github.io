@@ -297,6 +297,11 @@ width: 100%;
     background-repeat: no-repeat;
     background-position: center center;
 }
+.EC-project{
+    background-image: url("../images/ElectricCar.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 .cleaning-Service-project{
     background-image: url("../images/Cleaning_service.png");
     background-repeat: no-repeat;
