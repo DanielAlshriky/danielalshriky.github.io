@@ -21,15 +21,9 @@ h1, h2, h3, h4{
 p {
 	color: #333333;
     margin: 0;
-    font-size: 30px;
+    font-size: 20px;
     -webkit-font-smoothing: antialiased;
     display: block;
-    float: left;
-    width: 100%
-}
-span{
-    display: block;
-    float: left;
 }
 a{
   text-decoration: none;
@@ -77,17 +71,14 @@ a.logo-holder {
 
 .nav-menu-list a{
     color: white;
-    margin-left: 20px;
-    font-size: 20px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.nav-menu-list a:hover{
+    padding-bottom: 2px;
+   border-bottom: 2px solid white;
 }
 
-a.services-action{
-    float: right;
-    font-size: 16px;
-    color:white;
-    text-decoration: none;
-    font-weight: 600;
-}
 
 
 /*--------------------------------------END-Menu-*/
@@ -141,15 +132,17 @@ path {
     color: white;
 }
 
-.my-download-holder{
+.main-banner .my-download-holder{
   float: left;
   width: 100%;
 }
-.main-banner a.My-download{
+a.My-download{
     margin-right: 20px;
     color: white;
     display:inline-block;
     margin-top: 40px;
+}
+a.My-download:hover{
     padding-bottom: 5PX;
     border-bottom: 2px solid white;
 }
@@ -215,7 +208,7 @@ a.main-message-text p.main-text-about-me{
 }
 
 .about-content p{
-    width: 65%;
+    width: 50%;
     box-sizing: border-box;
 
 }
@@ -362,16 +355,19 @@ a.Work-Hoder{
     padding-bottom: 20px;
 }
 
-.view-project{
+a.view-project{
 	margin-top: 10px;
 	font-weight: 300;
      color: #333333;
     display: block;
-    padding-bottom: 5PX;
     float: left;
-    border-bottom: 2px solid #333333;
-
+    border-bottom: 2px solid white;
+    padding-bottom: 5PX;
 }
+a.view-project:hover{
+      border-bottom: 2px solid #333333;
+      padding-bottom: 5PX;
+    }
 
 .myWork-item .projects-images{
 	width: 100%;
@@ -384,15 +380,26 @@ a.Work-Hoder{
 /*--- footer copyrights ---*/
 
 .footer-holder{
-	width: 96%;
+    width: 96%;
     background: #27324b;
     display: inline-block;
     position: relative;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 300px;
     padding-right: 2%;
     padding-left: 2%;
 }
+
+.footer-holder .my-download-holder{
+    float: right;
+
+}
+.footer-holder .my-download-holder a{
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 20px;
+    }
+
 .footer-holder p, .footer-holder a{
 	color: white;
 	}
@@ -420,23 +427,33 @@ a.Work-Hoder{
 	}
 
 .contact-info-holder{
-    float: left;
+    display: inline-block;
 }
 
+.contact-info-holder span{
+   width: 100%;
+   float: left;
+   color: gray;
+    }
+
 .contact-info-holder p{
-    font-weight: 900;
-    display: block;
+    font-size: 20px;
+    float: left;
 }
 
 .copyrights {
-	margin-top: 40px;
-	width: 100%;
-	text-align: center;
-	display: inline-block;
+margin-top: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
 }
 .copyrights p{
-	font-size: 14px;
+font-size: 14px;
     float: left;
+    text-align: center;
+    width: 100%;
 }
 
 
