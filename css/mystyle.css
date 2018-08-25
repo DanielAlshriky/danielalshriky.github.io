@@ -12,10 +12,16 @@ p, a, h1, h2, h3, h4, h5, footer, span{
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
-h1, h2, h3, h4{
+h1, h2, h4{
 	font-size: 60px;
 	font-weight: 900;
 	-webkit-font-smoothing: antialiased;
+}
+
+h3{
+font-size: 30px;
+float: left;
+width: 100%;
 }
 
 p {
@@ -226,13 +232,6 @@ a.main-message-text p.main-text-about-me{
 
 }
 
-.Capabilities-content h3{
-font-size: 30px;
-color: #333333;
-float: left;
-width: 100%;
-}
-
 .Capabilities-content span{
 	font-size: 20px;
 	color: gray;
@@ -338,14 +337,6 @@ a.Work-Hoder{
         background: -ms-linear-gradient(top, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
         background: linear-gradient(to bottom, rgba(39,50,75,1) 0%, rgba(231,56,39,0) 61%);
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27324b', endColorstr='#e73827', GradientType=0 );
-}
-.myWork-item:hover .Work-Hoder > div.work-title-description .view-project{
-        display: block;
-        color: white;
-        border-bottom: 2px solid white;
-}
-.myWork-item:hover .Work-Hoder > div.work-title-description h4.work-title{
-        color: white;
 }
 
 .work-title-description{
