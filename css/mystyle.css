@@ -4,7 +4,7 @@ body, html{
 	overflow-x: hidden;
 	margin: 0 auto;
 	padding: 0;
-    min-width: 1200px;
+    min-width: 1400px;
 }
 
 p, a, h1, h2, h3, h4, h5, footer, span{
@@ -247,7 +247,6 @@ width: 100%;
 }
 
 .Capabilities-content ul{
-	width: 65%;
     float: left;
     margin-bottom: 40px;
     margin: 0;
@@ -258,6 +257,7 @@ width: 100%;
     list-style-position: inside;
     float: left;
     margin-bottom: 40px;
+    width: 50%;
 
 	}
     .Capabilities-content ul li span.space{
@@ -322,7 +322,7 @@ width: 100%;
 }
 
 .myWork-item{
-    width: 100%;
+    width: 50%;
     float: left;
     margin-bottom: 40px;
     }
@@ -333,7 +333,7 @@ a.Work-Hoder{
     width: 100%;
     float: left;
     overflow: hidden;
-    height: 600px;
+    height: 500px;
 }
 .myWork-item:hover .Work-Hoder > div.work-title-description{
         display: block;
@@ -440,6 +440,8 @@ a.Work-Hoder{
 }
 
 
+/*--------------------------------------Responsive Off-
+
 @media only screen and (max-width: 680px) {
 
     body, html{
@@ -541,6 +543,8 @@ a.Work-Hoder{
     }
 
 }
+
+-------------------------------------END-Responsive Off-*/
 
 
 	
