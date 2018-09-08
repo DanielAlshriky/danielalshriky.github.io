@@ -1,0 +1,162 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+.top-menu li a {
+    padding-right: 15px;
+}
+
+
+.slide-btn {
+    position: absolute;
+    bottom: -120px;
+}
+
+
+}
+
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
+
+.too-soical-menu {
+    display: none;
+}
+
+.slider-content h2 {
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 23px;
+}
+.slider-content p {
+    font-size: 16px;
+}
+.slide-btn {
+    position: absolute;
+    bottom: -80px;
+}
+.slide-btn a.start-btn {
+    padding: 2px 30px;
+    width: 254px;
+    height: 49px;
+    line-height: 50px;
+}
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+a.start-btn {
+	font-size: 12px;
+	padding: 9px 15px;
+	padding-right: 40px;
+}
+
+
+ul {
+}
+.top-menu ul {
+  display: none;
+}
+.too-soical-menu {
+  display: none;
+}
+.header-top-btn {
+  position: absolute;
+  right: 20px;
+  top: -24px;
+}
+.start-btn {
+}
+.site-logo {
+	width: 100px;
+	margin: 0 auto;
+	margin-top: -36px;
+}.site-logo h4 {
+  font-size: 15px;
+  margin-right: 37px;
+  margin-top: 4px;
+}
+
+
+.off-canvs-icon {
+    z-index: 999;
+}
+
+
+.off-canvs-menu {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	z-index: 999;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	border-radius: 0 0 30px 0;
+	margin-top: 0;
+	transition: .3s;
+	opacity: 0;
+	visibility: hidden;
+}
+
+.header-top.sticky .site-logo {
+	margin-top: -22px;
+}
+
+.header-top.sticky .off-canvs-icon {
+	margin-top: 10px;
+	margin-bottom: -13px;
+	z-index: 9999;
+}
+
+.header-top.sticky .header-top-btn {
+	top: -18px;
+}
+
+
+
+
+
+
+
+
+
+
+.slider-content h2 {
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+.slider-content p {
+    line-height: 24px;
+    font-size: 16px;
+    color: #000000;
+}
+.slider-content {
+    text-align: center;
+}
+.owl-carousel .owl-item img {
+    width: 220px;
+}
+
+
+
+
+
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+ 
+}
