@@ -12,22 +12,28 @@ p, a, h1, h2, h3, h4, h5, footer, span{
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
-h1, h2, h4{
+h1{
 	font-size: 60px;
 	font-weight: 900;
 	-webkit-font-smoothing: antialiased;
 }
 
 h3{
-font-size: 30px;
+font-size: 40px;
 float: left;
 width: 100%;
 }
 
+h2.mainTitle{
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+
 p {
 	color: #333333;
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
     -webkit-font-smoothing: antialiased;
     display: block;
 }
@@ -37,21 +43,6 @@ a{
 }
 a:hover, a:focus{
     cursor: pointer;
-}
-
-
-.title-my-work {
-    width: 100%;
-    padding: 0 0 80px 0;
-    float: left;
-}
-
-.title-my-work p {
-    float: left;
-    width: 40%;
-    box-sizing: border-box;
-    padding-top: 16px;
-    color: #333333;
 }
 
 /*----END-General-----*/
@@ -85,8 +76,6 @@ a.logo-holder {
    border-bottom: 2px solid white;
 }
 
-
-
 /*--------------------------------------END-Menu-*/
 
 /*--------------------------------------Banner line effect-*/
@@ -110,7 +99,7 @@ path {
 
 /*--------------------------------------END Banner line effect-*/
 
-.main-banner {
+.mainBanner {
     width: 96%;
     padding-left: 2%;
     padding-right: 2%;
@@ -129,16 +118,15 @@ path {
     z-index: 0;
     background-color: #27324b;
 }
-.main-banner h1 {
+.mainBanner h1 {
     max-width: 940px;
-    font-size: 60px;
     float: left;
     margin-top: 100px;
     line-height: 66px;
     color: white;
 }
 
-.main-banner .my-download-holder{
+.mainBanner .my-download-holder{
   float: left;
   width: 100%;
 }
@@ -214,7 +202,7 @@ a.main-message-text p.main-text-about-me{
 }
 
 .about-content p{
-    width: 50%;
+    width: 70%;
     box-sizing: border-box;
 
 }
@@ -233,8 +221,10 @@ a.main-message-text p.main-text-about-me{
 }
 
 .Capabilities-content span{
-	font-size: 20px;
-	color: gray;
+    font-size: 30px;
+    color: gray;
+    margin-top: 20px;
+    display: block;
 
 }
 
@@ -447,112 +437,6 @@ font-size: 14px;
     width: 100%;
 }
 
-
-/*--------------------------------------Responsive Off-
-
-@media only screen and (max-width: 680px) {
-
-    body, html{
-        width: 100%;
-        min-width: 100%;
-    }
-
-    p {
-        font-size: 20px;
-    }
-    h1, h2, h3, h4{
-    font-size: 20px;
-    }
-
-    a{
-    font-size: 14px;
-    }
-
-    svg{
-    opacity: 0.0;
-    }
-
-    .icon-scroll{
-        display: none;
-    }
-
-    .main-banner{
-        padding: 20px;
-    }
-
-    .main-banner h1{
-        width: 100%;
-        max-width: 100%;
-        font-size:40px;
-        line-height:100%;
-        color: white;
-    }
-
-    .about-content,  .Capabilities-content{ 
-        padding: 80px 20px 80px 20px;
-        width: auto;
-    }
-
-    .title-my-work{
-    padding: 0 20px 80px 20px;
-    }
-
-    .about-content h2, .about-content p, 
-    .Capabilities-content h2,.Capabilities-content ul, 
-    .Capabilities-content ul li div, .title-my-work h2, .title-my-work p,
-    .contact-info-holder  {
-        width: 100%;
-    }
-    .about-content h2, .Capabilities-content h2, .title-my-work h2{
-        font-size: 40px;
-    }
-    .Capabilities-content h3{
-    font-size: 20px;
-    }
-
-    .mysocials-holder{
-        margin-bottom: 40px;
-        width: 100%;
-    }
-
-    .MyWorkWidth{
-        padding: 0;
-        width: 100%;
-        margin:0;
-    }
-
-    .work-title-description{
-        padding: 20px;
-        margin-top:0;
-    }
-
-    .myWork-item{
-     width: 100%;
-     margin:0;
-
-    }
-    .main-banner a.My-download{
-        margin-top: 20px;
-    }
-
-    .contact-info-holder p{
-        font-size: 20px;
-    }
-
-    .mysocials-holder a{
-        padding-left: 0;
-        margin-left: 0;
-        margin-right: 20px;
-        margin-bottom: 20px;
-    }
-
-    .footer-holder{
-        padding: 60px 20px 60px 20px;
-    }
-
-}
-
--------------------------------------END-Responsive Off-*/
 
 
 	
