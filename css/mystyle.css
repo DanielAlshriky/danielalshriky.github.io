@@ -273,6 +273,20 @@ a.main-message-text p.main-text-about-me{
     padding-right: 2%;
     padding-left: 2%;
 }
+.holderImgWork{
+    overflow:hidden;
+}
+.Work-Hoder{
+    transition: transform .2s; /* Animation */
+}
+
+.Work-Hoder:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
 
 .VM-project{
     background-image: url("../images/vm_menu.jpg");
@@ -283,7 +297,10 @@ a.main-message-text p.main-text-about-me{
     background-image: url("../images/electric_car.jpg");
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
 }
+
+
 .cleaning-Service-project{
     background-image: url("../images/Cleaning_service.png");
     background-repeat: no-repeat;
@@ -309,7 +326,6 @@ a.main-message-text p.main-text-about-me{
     margin-bottom: 40px;
     }
 
-
 a.Work-Hoder{
 	display: block;
     width: 100%;
@@ -317,6 +333,7 @@ a.Work-Hoder{
     overflow: hidden;
     height: 500px;
 }
+
 .myWork-item:hover .Work-Hoder > div.work-title-description{
         display: block;
                         background: rgba(39,50,75,1);
