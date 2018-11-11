@@ -11,11 +11,13 @@ p, a, h1, h2, h3, h4, h5, footer, span{
     font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
     -webkit-font-smoothing: antialiased;
+    color: #333333;
 }
 h1{
 	font-size: 60px;
 	font-weight: 900;
-	-webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+
 }
 
 h3{
@@ -31,7 +33,6 @@ h2.mainTitle{
 
 
 p {
-	color: #333333;
     margin: 0;
     font-size: 30px;
     -webkit-font-smoothing: antialiased;
@@ -205,10 +206,6 @@ a.main-message-text p.main-text-about-me{
     width: 70%;
     box-sizing: border-box;
 
-}
-
-.about-content h2, .Capabilities-content h2, .title-my-work h2{
-    color: #333333;
 }
 /*-----Capabilities-----*/
 .Capabilities-content{
