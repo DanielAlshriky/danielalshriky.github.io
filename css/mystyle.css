@@ -379,7 +379,6 @@ a.view-project:hover{
     display: inline-block;
     position: relative;
     padding-top: 100px;
-    padding-bottom: 300px;
     padding-right: 2%;
     padding-left: 2%;
 }
@@ -438,12 +437,12 @@ a.view-project:hover{
 }
 
 .copyrights {
-margin-top: 40px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
     width: 100%;
     padding-bottom: 20px;
+    padding-top: 20px;
+    display: block;
 }
 .copyrights p{
 font-size: 14px;
@@ -456,20 +455,32 @@ font-size: 14px;
 
     .mainBanner{
         background-color: #224758;
+        padding-bottom: 40px;
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 45px;
     }
 
     h1, p, h2, h3, span,
-    .mainBanner .my-download-holder {
+    .mainBanner .my-download-holder,
+    .logo-holder,
+    .nav-menu-list,
+    .main-menu {
         text-align: center;
+        float: none;
     }
-    .icon-scroll, #canvas-basic{
+    .icon-scroll, #canvas-basic, a.view-project{
         display: none;
     }
 
     body, html{
         min-width:100%;
     }
-     
+    
+    .logo-holder,
+    .nav-menu-list,
     .about-content p, 
     .Capabilities-content ul li,
     .Capabilities-content ul li div,
@@ -481,6 +492,10 @@ font-size: 14px;
     .work-title-description
     {
         width: 100%;
+    }
+
+    .Work-Hoder{
+        background-size: cover;
     }
 
     .footer-holder .my-download-holder a{
