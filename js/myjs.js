@@ -30,9 +30,17 @@ function profileLinks(){
 }
 
 function fullHeightWindow(){
-    var heightwindow = $(window).height();
-    $('.mainBanner').css('height', heightwindow+'px');
-    $('#canvas-basic').css('height', heightwindow+'px');
+
+    if ( ($(window).width() <= 900) && ($(window).width() >= 300) ) {
+        $('.mainBanner').css('height', 'auto');
+
+     } else{
+
+        var heightwindow = $(window).height();
+        $('.mainBanner').css('height', heightwindow+'px');
+        $('#canvas-basic').css('height', heightwindow+'px');
+     }
+
 }
 
 $(document).ready( function(){
