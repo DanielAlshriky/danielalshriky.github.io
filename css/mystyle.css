@@ -453,6 +453,18 @@ font-size: 14px;
 
 @media (min-width: 300px) and (max-width: 900px) {
 
+    .logo-holder{
+        margin-top: 40px;
+    }
+    .main-menu{
+     margin: 0;
+    }
+
+    .mainBanner h1{
+        line-height: 45px;
+        margin-top: 50px;
+    }
+
     .mainBanner{
         background-color: #224758;
         padding-bottom: 40px;
@@ -471,7 +483,7 @@ font-size: 14px;
         text-align: center;
         float: none;
     }
-    .icon-scroll, #canvas-basic, a.view-project{
+    .icon-scroll, #canvas-basic, a.view-project, .nav-menu-list{
         display: none;
     }
 
@@ -505,6 +517,20 @@ font-size: 14px;
         float: none;
         display: block;
         text-align: center;
+    }
+    .footer-holder{
+        padding-top: 40px;
+    }
+
+    .contact-info-holder p{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .my-download-holder{
+        padding: 40px 0 40px 0;
+    }
+    .copyrights{
+        padding-top: 0;
     }
 
   }
