@@ -46,7 +46,7 @@ function fullHeightWindow(){
 $(document).ready( function(){
        fullHeightWindow();
        profileLinks();
-});
+    });
 
 $(window).resize(function() {
     fullHeightWindow();
