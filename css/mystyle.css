@@ -71,11 +71,13 @@ a.logo-holder {
     color: white;
     margin-left: 30px;
     display: inline-block;
+    padding-bottom: 2px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
 
 }
 .nav-menu-list a:hover{
     padding-bottom: 2px;
-   border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 /*--------------------------------------END-Menu-*/
@@ -137,6 +139,8 @@ a.My-download{
     color: white;
     display:inline-block;
     margin-top: 40px;
+    padding-bottom: 5PX;
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
 a.My-download:hover{
     padding-bottom: 5PX;
@@ -388,9 +392,7 @@ a.view-project:hover{
 
 }
 .footer-holder .my-download-holder a{
-    margin-top: 0;
-    margin-right: 0;
-    margin-left: 20px;
+    margin: 0 0 20px 20px;
     }
 
 .footer-holder p, .footer-holder a{
@@ -511,7 +513,7 @@ font-size: 14px;
     }
 
     .footer-holder .my-download-holder a{
-        margin: 0 10px 0 10px;
+        margin: 0 10px 20px 10px;
     }
     .footer-holder .my-download-holder{
         float: none;
