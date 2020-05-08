@@ -30,6 +30,8 @@ width: 100%;
 h2.mainTitle{
     font-size: 40px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 
@@ -209,6 +211,8 @@ a.main-message-text p.main-text-about-me{
 .about-content p{
     width: 70%;
     box-sizing: border-box;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 /*-----Capabilities-----*/
@@ -231,7 +235,9 @@ a.main-message-text p.main-text-about-me{
 .Capabilities-content ul{
     float: left;
     margin-bottom: 40px;
-    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
     padding: 0;
 }
 .Capabilities-content ul li{
@@ -274,7 +280,9 @@ a.main-message-text p.main-text-about-me{
     padding-left: 2%;
 }
 .holderImgWork{
-    overflow:hidden;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 20px;
 }
 .Work-Hoder{
     transition: transform .2s; /* Animation */
@@ -286,6 +294,14 @@ a.main-message-text p.main-text-about-me{
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
+}
+
+.technologies_Radar{
+    background-image: url("../images/Technologies_Radar.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-color: #c9f1ff;
+    background-size: cover;
 }
 
 .VM-project{
@@ -326,6 +342,10 @@ a.main-message-text p.main-text-about-me{
     margin-bottom: 40px;
     }
 
+ .fullscreen-holder{
+    width: 100%; 
+ }   
+
 a.Work-Hoder{
 	display: block;
     width: 100%;
@@ -351,6 +371,7 @@ a.Work-Hoder{
     margin-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
+    margin-left: 20px;
 }
 
 a.view-project{
@@ -507,6 +528,12 @@ font-size: 14px;
     {
         width: 100%;
     }
+
+    .work-title-description{
+        margin: 0;
+        padding: 0;
+    }
+
 
     .Work-Hoder{
         background-size: cover;
