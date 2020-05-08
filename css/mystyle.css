@@ -527,6 +527,11 @@ font-size: 14px;
     .work-title-description
     {
         width: 100%;
+        
+    }
+    .about-content p{
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .work-title-description{
