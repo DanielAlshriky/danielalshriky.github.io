@@ -29,19 +29,18 @@ function profileLinks(){
    .from(profilelink [4], 0.2, {y:-30, opacity: 0});
 }
 
-function fullHeightWindow(){
+//function fullHeightWindow(){
 
-    if ( ($(window).width() <= 900) && ($(window).width() >= 300) ) {
-        $('.mainBanner').css('height', 'auto');
+//    if ( ($(window).width() <= 900) && ($(window).width() >= 300) ) {
+//        $('.mainBanner').css('height', 'auto');
 
-     } else{
+//     } else{
 
-        var heightwindow = $(window).height();
-        $('.mainBanner').css('height', heightwindow+'px');
-        $('#canvas-basic').css('height', heightwindow+'px');
-     }
-
-}
+//        var heightwindow = $(window).height();
+//        $('.mainBanner').css('height', heightwindow+'px');
+//        $('#canvas-basic').css('height', heightwindow+'px');
+//    
+//}
 
 $(document).ready( function(){
        fullHeightWindow();
