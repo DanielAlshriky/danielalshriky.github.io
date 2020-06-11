@@ -70,8 +70,8 @@ var granimInstance = new Granim({
 });
 
 
-var moveForce = 20; // max popup movement in pixels
-var rotateForce = 20; // max popup rotation in deg
+var moveForce = 0; // max popup movement in pixels
+var rotateForce = 0; // max popup rotation in deg
 
 $(document).mousemove(function(e) {
   
