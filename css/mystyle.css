@@ -415,7 +415,9 @@ a.article-link{
     border-bottom: 2px solid white;
     padding-bottom: 20PX;
     padding-top: 20PX;
-    width: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+    width: 98%;
 }
 a.article-link:hover{
     border-bottom: 2px solid #333333;
