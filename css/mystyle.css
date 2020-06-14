@@ -577,6 +577,18 @@ font-size: 14px;
         background-size: cover;
     }
 
+    a.article-link{  
+        font-weight: 300;
+        color: #333333;
+        display: inline-block;
+        border-bottom: 2px solid white;
+        padding-bottom: 20PX;
+        padding-top: 20PX;
+        margin-right: 1%;
+        margin-left: 1%;
+        width: 96%;
+    }
+
     .footer-holder .my-download-holder a{
         margin: 0 10px 20px 10px;
     }
