@@ -144,6 +144,9 @@ a.My-download{
     padding-bottom: 5PX;
     border-bottom: 2px solid rgba(255, 255, 255, 0);
 }
+a.top-link{
+    font-size: 30px;
+}
 a.My-download:hover{
     padding-bottom: 5PX;
     border-bottom: 2px solid white;
@@ -436,15 +439,12 @@ a.article-link:hover{
     background: #27324b;
     display: inline-block;
     position: relative;
-    padding-top: 100px;
+    padding-top: 40px;
     padding-right: 2%;
     padding-left: 2%;
+    text-align: center;
 }
 
-.footer-holder .my-download-holder{
-    float: right;
-
-}
 .footer-holder .my-download-holder a{
     margin: 0 0 20px 20px;
     }
@@ -477,7 +477,6 @@ a.article-link:hover{
 
 .contact-info-holder{
     display: inline-block;
-    width: 600px;
 }
 
 .contact-info-holder span{
@@ -493,7 +492,6 @@ a.article-link:hover{
 }
 
 .copyrights {
-    margin-top: 40px;
     margin-bottom: 40px;
     width: 100%;
     padding-bottom: 20px;
