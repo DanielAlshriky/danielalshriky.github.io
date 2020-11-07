@@ -2,9 +2,8 @@
 
 body, html{
 	overflow-x: hidden;
-	margin: 0 auto;
+	margin: 0;
 	padding: 0;
-    min-width: 1400px;
     background-color: #F3F3F5;
 }
 
@@ -14,26 +13,25 @@ p, a, h1, h2, h3, h4, h5, footer, span{
     -webkit-font-smoothing: antialiased;
     color: #333333;
 }
+a:hover{
+    text-decoration: underline;
+}
 h1{
 	font-size: 60px;
 	font-weight: 900;
     -webkit-font-smoothing: antialiased;
+}
 
+h2{
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
 h3{
-font-size: 30px;
-float: left;
-width: 100%;
+    font-size: 20px;
+    float: left;
+    width: 100%;
 }
-
-h2.mainTitle{
-    font-size: 40px;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right:20px;
-}
-
 
 p, a, span {
     margin: 0;
@@ -54,15 +52,15 @@ a:hover, a:focus{
 .main-menu {
   width: 100%;
   box-sizing: border-box;
-  float: left;
+text-align: center;
   margin-top: 2%;
 }
 
 a.logo-holder {
-	float: left;
-	color:white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
     font-weight: bold;
+    margin-top: 100px;
 }
 
 .nav-menu-list{
@@ -73,13 +71,6 @@ a.logo-holder {
     color: white;
     margin-left: 30px;
     display: inline-block;
-    padding-bottom: 2px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0);
-
-}
-.nav-menu-list a:hover{
-    padding-bottom: 2px;
-    border-bottom: 2px solid white;
 }
 
 /*--------------------------------------END-Menu-*/
@@ -104,20 +95,21 @@ path {
 }
 
 /*--------------------------------------END Banner line effect-*/
+.mainBanner ,  #canvas-basic{
+    height: 800px;
+}
 
 .mainBanner {
     width: 96%;
-    padding-left: 2%;
-    padding-right: 2%;
+    padding: 2%;
     position: relative;
     z-index: 2;
-    height: 700px;
+    text-align: center;
 }
 
 #canvas-basic {
     display: block;
     width: 100%;
-    height: 700px;
     top: 0;
     position: absolute;
     left: 0;
@@ -127,7 +119,7 @@ path {
 .mainBanner h1 {
     max-width: 940px;
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 60px;
     line-height: 66px;
     color: white;
 }
@@ -137,19 +129,12 @@ path {
   width: 100%;
 }
 a.My-download{
-    margin-right: 20px;
+    margin-right: 30px;
     color: white;
     display:inline-block;
-    margin-top: 40px;
-    padding-bottom: 5PX;
-    border-bottom: 2px solid rgba(255, 255, 255, 0);
-}
-a.top-link{
+    margin-top: 60px;
+    margin-bottom: 60px;
     font-size: 30px;
-}
-a.My-download:hover{
-    padding-bottom: 5PX;
-    border-bottom: 2px solid white;
 }
 
 a.main-message-text p.main-text-about-me{
@@ -201,33 +186,26 @@ a.main-message-text p.main-text-about-me{
   }
 }
 
+/*-----Main Container-----*/
 
-/*-----About me-----*/
-
-.about-content{
-    width: 96%;
-    padding-top:160px; padding-bottom: 160px;
-    padding-right:2%; padding-left:2%;
-    display: inline-block;
-}
-
-.about-content p{
-    width: 70%;
-    box-sizing: border-box;
-    margin-left: 20px;
-    margin-right: 20px;
+.wrapper{
+    width:1000px;
+    margin: 140px auto 0 auto;
 
 }
+
+.about-content, .Capabilities-content, .MyWorkWidth, .article-content{
+    padding-bottom: 140px;
+    margin: 0 auto 0 auto;
+    float: left;
+    width: 100%;
+}
+
+/*----END-Main Container-----*/
+
+
+
 /*-----Capabilities-----*/
-.Capabilities-content{
-    width: 96%;
-    padding-bottom: 160px;
-    padding-right: 2%;
-    padding-left: 2%;
-    display: inline-block;
-
-}
-
 .Capabilities-content span{
     color: gray;
     margin-top: 20px;
@@ -237,18 +215,16 @@ a.main-message-text p.main-text-about-me{
 
 .Capabilities-content ul{
     float: left;
-    margin-bottom: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
     margin-top: 0;
     padding: 0;
+    display: block;
 }
 .Capabilities-content ul li{
     list-style: none;
     list-style-position: inside;
     float: left;
     margin-bottom: 40px;
-    width: 50%;
+
 
 	}
     .Capabilities-content ul li span.space{
@@ -259,13 +235,8 @@ a.main-message-text p.main-text-about-me{
     float: left;
     width: 100%;
     color: #e6e6e6;
-
     }
-    .Capabilities-content ul li div{
-    width: 80%;
-    float: left;
-
-    }
+ 
 
     .Capabilities-content ul li:last-child{
     margin-bottom: 0;
@@ -274,18 +245,14 @@ a.main-message-text p.main-text-about-me{
 
 /*-----My work-----*/
 
-.MyWorkWidth{
-    width: 96%;
-    margin: 0 auto;
-    margin-bottom: 160px;
-    display: inline-block;
-    padding-right: 2%;
-    padding-left: 2%;
-}
 .holderImgWork{
     overflow: hidden;
-    margin: 20px;
     border-radius: 20px;
+    border: 10px solid white;
+}
+.holderImgWork:hover{
+    border: 10px solid #90FFEA;
+
 }
 .Work-Hoder{
     transition: transform .2s; /* Animation */
@@ -297,6 +264,7 @@ a.main-message-text p.main-text-about-me{
     -webkit-transform: scale(1.1);
     -o-transform: scale(1.1);
     transform: scale(1.1);
+    
 }
 
 .technologies_Radar{
@@ -340,14 +308,10 @@ a.main-message-text p.main-text-about-me{
 }
 
 .myWork-item{
-    width: 50%;
+    width: 100%;
     float: left;
     margin-bottom: 40px;
     }
-
- .fullscreen-holder{
-    width: 100%; 
- }   
 
 a.Work-Hoder{
 	display: block;
@@ -372,9 +336,7 @@ a.Work-Hoder{
 .work-title-description{
     float: left;
     margin-top: 20px;
-    padding-right: 20px;
     padding-bottom: 20px;
-    margin-left: 20px;
 }
 
 a.view-project{
@@ -383,14 +345,7 @@ a.view-project{
      color: #333333;
     display: block;
     float: left;
-    border-bottom: 2px solid white;
-    padding-bottom: 5PX;
 }
-a.view-project:hover{
-      border-bottom: 2px solid #333333;
-      padding-bottom: 5PX;
-      font-weight: bold;
-    }
 
 .myWork-item .projects-images{
 	width: 100%;
@@ -399,37 +354,23 @@ a.view-project:hover{
     overflow: hidden;
 }
 
-
-
 /*--- Article ---*/
 .article-link i{
-    margin-top: 5px;
-    margin-right: 20px;
-    float: left;
-}
-
-.article-content{
-    width: 96%;
-    padding-bottom: 160px;
-    padding-right: 2%;
-    padding-left: 2%;
-    display: inline-block;
+    float: right;
+    margin-top: 3px;
 }
 
 a.article-link{  
-    font-weight: 300;
-    color: #333333;
-    display: inline-block;
-    border-bottom: 2px solid white;
-    padding-bottom: 20PX;
-    padding-top: 20PX;
-    margin-right: 1%;
-    margin-left: 1%;
-    width: 46%;
+    padding: 2%;
+    width: 96%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: #D5F8F3;
+    color: black; 
 }
-a.article-link:hover{
-    border-bottom: 2px solid #333333;
-    font-weight: bold;
+
+a.article-link:hover{  
+    background-color: #90FFEC;
 }
 
 /*--- footer copyrights ---*/
@@ -439,19 +380,17 @@ a.article-link:hover{
     background: #27324b;
     display: inline-block;
     position: relative;
-    padding-top: 40px;
-    padding-right: 2%;
-    padding-left: 2%;
+    padding: 2%;
     text-align: center;
 }
 
-.footer-holder .my-download-holder a{
-    margin: 0 0 20px 20px;
-    }
+.contact-info-holder p, .contact-info-holder a{
+color: white;
+}
 
-.footer-holder p, .footer-holder a{
-	color: white;
-	}
+.contact-info-holder strong{
+    display: block;
+}
 
 .footer-message{
 	max-width: 460px;
@@ -477,6 +416,7 @@ a.article-link:hover{
 
 .contact-info-holder{
     display: inline-block;
+    margin-bottom: 40px;
 }
 
 .contact-info-holder span{
@@ -487,8 +427,7 @@ a.article-link:hover{
 
 .contact-info-holder p{
     float: left;
-    width: 300px;
-    height: 80px;
+    margin-right: 30PX;
 }
 
 .copyrights {
@@ -499,119 +438,45 @@ a.article-link:hover{
     display: block;
 }
 .copyrights p{
-font-size: 14px;
+    font-size: 14px;
     float: left;
-    text-align: center;
     width: 100%;
+    color: white;
 }
 
 @media (min-width: 300px) and (max-width: 900px) {
 
-    .logo-holder{
-        margin-top: 40px;
-    }
-    .main-menu{
-     margin: 0;
-    }
-
-    .mainBanner h1{
-        line-height: 45px;
-        margin-top: 50px;
+    .wrapper{
+        width: 92%;
+        padding-left: 4%;
+        padding-right: 4%;
     }
 
-    .mainBanner{
-        background-color: #224758;
-        padding-bottom: 40px;
-    }
-
-    h1{
-        font-size: 40px;
-        line-height: 45px;
-    }
-
-    h1, p, h2, h3, span,
-    .mainBanner .my-download-holder,
-    .logo-holder,
-    .nav-menu-list,
-    .main-menu {
-        text-align: center;
-        float: none;
-    }
-    .icon-scroll, #canvas-basic, a.view-project, .nav-menu-list{
-        display: none;
-    }
-
-    body, html{
-        min-width:100%;
+    .mainBanner ,  #canvas-basic{
+        height: 900px;
     }
     
-    .logo-holder,
-    .nav-menu-list,
-    .about-content p, 
-    .Capabilities-content ul li,
-    .Capabilities-content ul li div,
-    .myWork-item,
-    .footer-holder .my-download-holder,
-    .contact-info-holder,
-    .contact-info-holder p,
-    body, html, h3,
-    .work-title-description
-    {
-        width: 100%;
+
+    .mainBanner h1{
+        font-size: 40px;
+        line-height:40px;
+    }
+
+    .my-download-holder{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    a.My-download{
+        margin:16px;
+    }
+
+    .contact-info-holder{
+        text-align: center;
+        margin: auto;
         
     }
-    .about-content p{
-        margin-left: 0;
-        margin-right: 0;
-    }
-
-    .work-title-description{
-        margin: 0;
-        padding: 0;
-    }
-
-
-    .Work-Hoder{
-        background-size: cover;
-    }
-
-    a.article-link{  
-        font-weight: 300;
-        color: #333333;
-        display: inline-block;
-        border-bottom: 2px solid white;
-        padding-bottom: 20PX;
-        padding-top: 20PX;
-        margin-right: 1%;
-        margin-left: 1%;
-        width: 96%;
-    }
-
-    .footer-holder .my-download-holder a{
-        margin: 0 10px 20px 10px;
-    }
-    .footer-holder .my-download-holder{
-        float: none;
-        display: block;
-        text-align: center;
-    }
-    .footer-holder{
-        padding-top: 40px;
-    }
-
     .contact-info-holder p{
-        height: auto;
+        float: none;
         margin-bottom: 20px;
     }
-    .my-download-holder{
-        padding: 40px 0 40px 0;
-    }
-    .copyrights{
-        padding-top: 0;
-    }
-
   }
-
-
-
-	
