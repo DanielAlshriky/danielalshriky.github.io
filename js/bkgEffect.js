@@ -12,7 +12,7 @@ var light = {
     y: 200
 }
 
-var colors = ["#163643", "#186B6E", "#163643"];
+var colors = ["#186B6E", "#186B6E", "#186B6E"];
 
 function drawLight() {
     ctx.beginPath();
