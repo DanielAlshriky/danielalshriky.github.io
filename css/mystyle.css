@@ -419,7 +419,7 @@ color: white;
 @media (min-width: 300px) and (max-width: 900px) {
 
     .mainBanner, #canvas{
-        height: 924px;
+        height: 930px;
     }
     .mainBanner {
         padding: 50px 2% 50px 2%;
