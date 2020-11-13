@@ -4,6 +4,7 @@ var granimInstance = new Granim({
     direction: 'left-right',
     opacity: [1, 1],
     isPausedWhenNotInView: true,
+
     states : {
         "default-state": {
             gradients: [
