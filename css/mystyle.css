@@ -60,7 +60,6 @@ a.logo-holder {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 100px;
 }
 
 .nav-menu-list{
@@ -75,47 +74,33 @@ a.logo-holder {
 
 /*--------------------------------------END-Menu-*/
 
-/*--------------------------------------Banner line effect-*/
-
-svg {
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    opacity: 0.1;
-}
-
-path {
-  fill: none;
-  stroke: #ddd;
-  stroke-width: 0.5px;
-  vector-effect: non-scaling-stroke;
-}
-
-/*--------------------------------------END Banner line effect-*/
-.mainBanner ,  #canvas-basic{
-    height: 800px;
-}
-
 .mainBanner {
     width: 96%;
-    padding: 2%;
+    padding: 100px 2% 100px 2%;
     position: relative;
     z-index: 2;
     text-align: center;
 }
-
+/*-- Off Gradient color 
 #canvas-basic {
     display: block;
     width: 100%;
     top: 0;
     position: absolute;
     left: 0;
-    z-index: 0;
+    z-index: 3;
     background-color: #27324b;
 }
+ Off code Gradient color --*/
+
+#canvas{
+    top: 0;
+    position: absolute;
+    background-color: #27324b;
+    width: 100%;
+    height: 695px;	
+}
+
 .mainBanner h1 {
     max-width: 940px;
     display: inline-block;
@@ -376,11 +361,9 @@ a.article-link:hover{
 /*--- footer copyrights ---*/
 
 .footer-holder{
-    width: 96%;
+    width: 100%;
     background: #27324b;
     display: inline-block;
-    position: relative;
-    padding: 2%;
     text-align: center;
 }
 
@@ -416,7 +399,6 @@ color: white;
 
 .contact-info-holder{
     display: inline-block;
-    margin-bottom: 40px;
 }
 
 .contact-info-holder span{
@@ -431,10 +413,9 @@ color: white;
 }
 
 .copyrights {
-    margin-bottom: 40px;
     width: 100%;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 60px;
+    padding-top: 60px;
     display: block;
 }
 .copyrights p{
@@ -446,16 +427,17 @@ color: white;
 
 @media (min-width: 300px) and (max-width: 900px) {
 
+    .mainBanner, #canvas {
+        height: 1000px;
+        -moz-box-sizing: border-box; 
+        box-sizing: border-box;
+    }
+
     .wrapper{
         width: 92%;
         padding-left: 4%;
         padding-right: 4%;
-    }
-
-    .mainBanner ,  #canvas-basic{
-        height: 1000px;
-    }
-    
+    }    
 
     .mainBanner h1{
         font-size: 40px;
@@ -481,4 +463,5 @@ color: white;
         margin-left: 0;
         margin-right: 0;
     }
+    
   }
