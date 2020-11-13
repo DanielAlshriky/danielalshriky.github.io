@@ -73,32 +73,23 @@ a.logo-holder {
 }
 
 /*--------------------------------------END-Menu-*/
-
+.mainBanner, #canvas{
+    height: 695px;
+}
 .mainBanner {
     width: 96%;
     padding: 100px 2% 100px 2%;
     position: relative;
     z-index: 2;
     text-align: center;
+    -moz-box-sizing: border-box; 
+    box-sizing: border-box;   
 }
-/*-- Off Gradient color 
-#canvas-basic {
-    display: block;
-    width: 100%;
-    top: 0;
-    position: absolute;
-    left: 0;
-    z-index: 3;
-    background-color: #27324b;
-}
- Off code Gradient color --*/
-
 #canvas{
     top: 0;
     position: absolute;
     background-color: #27324b;
     width: 100%;
-    height: 695px;	
 }
 
 .mainBanner h1 {
@@ -427,12 +418,12 @@ color: white;
 
 @media (min-width: 300px) and (max-width: 900px) {
 
-    .mainBanner, #canvas {
-        height: 1000px;
-        -moz-box-sizing: border-box; 
-        box-sizing: border-box;
+    .mainBanner, #canvas{
+        height: 924px;
     }
-
+    .mainBanner {
+        padding: 50px 2% 50px 2%;
+    }
     .wrapper{
         width: 92%;
         padding-left: 4%;
