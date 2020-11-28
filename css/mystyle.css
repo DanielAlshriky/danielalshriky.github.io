@@ -418,11 +418,19 @@ color: white;
 
 @media (min-width: 300px) and (max-width: 900px) {
 
+
+    .about-content, .Capabilities-content, .MyWorkWidth, .article-content, a.view-project {
+        text-align: center;
+    }
+    a.view-project{
+        width: 100%;
+    }
     .mainBanner, #canvas{
         height: 930px;
     }
     .mainBanner {
         padding: 50px 2% 50px 2%;
+        margin: 0 auto;
     }
     .wrapper{
         width: 92%;
@@ -441,6 +449,10 @@ color: white;
     }
     a.My-download{
         margin:16px;
+    }
+
+    .article-link i{
+        display: none;
     }
 
     .contact-info-holder{
