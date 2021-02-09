@@ -340,12 +340,12 @@ a.article-link{
     width: 96%;
     margin-bottom: 20px;
     border-radius: 8px;
-    background-color: #D5F8F3;
+    background-color: #E8E8E8;
     color: black; 
 }
 
 a.article-link:hover{  
-    background-color: #90FFEC;
+    background-color: #DEDEDE;
 }
 
 /*--- footer copyrights ---*/
