@@ -17,7 +17,7 @@ a:hover{
     text-decoration: underline;
 }
 h1{
-	font-size: 60px;
+	font-size: 40px;
 	font-weight: 900;
     -webkit-font-smoothing: antialiased;
 }
@@ -95,7 +95,7 @@ a.logo-holder {
     max-width: 940px;
     display: inline-block;
     margin-top: 60px;
-    line-height: 66px;
+    line-height: 50px;
     color: white;
 }
 
@@ -438,8 +438,8 @@ color: white;
     }    
 
     .mainBanner h1{
-        font-size: 40px;
-        line-height:40px;
+	font-size: 36px;
+    	line-height: 40px;
     }
 
     .my-download-holder{
